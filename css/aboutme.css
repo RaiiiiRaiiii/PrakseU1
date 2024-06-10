@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Dizains.svg");
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 45rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    margin-top:8vw;
+    filter:drop-shadow(0 0 0.75rem #ccc);
+    scale:2;
+    @media (max-width: 768px) {
+        scale: 1;   
+    }
+}
+#card header {
+    background-color: dodgerblue;
+    height:128px;
+    display:flex;
+    background-image: url("../images/Dizains2.svg");
+    color:white;
+    border-radius: 8px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+#buttons {
+    margin-top: 0px;
+    margin-left: 128px;
+    display: flex;
+}
+#buttons a {
+    margin:2px;
+}
+
+#about {
+    margin:16px;
+    display: flex;
+}
